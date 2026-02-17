@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment Risk Insight Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Payment Risk Insight Platform</h1>
+    <p class="subtitle">
+      An end-to-end fraud decisioning system built to explore how machine learning, economic optimization, and explainable AI are deployed in real-world payment networks.
+    </p>
+
+    <div class="header-cta">
+    <a href="#demo" class="btn primary">Watch Demo</a>
+    <a href="https://github.com/jessicabat/payment-risk-insight-platform" class="btn primary">View Repo</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Why I Built This</h2>
+    <p>
+      I’m really interested in how large-scale payment systems make decisions under uncertainty.
+      Fraud detection isn’t just about predicting risk—it’s about balancing customer experience,
+      financial loss, and operational constraints.
+    </p>
+    <p>
+      This project started as a way for me to learn how real payment networks think about risk,
+      and it slowly turned into a full decisioning system with explainability and an analyst interface.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>What the System Does</h2>
+    <ul>
+      <li>Scores transactions using behavioral signals</li>
+      <li>Selects a decision threshold based on economic tradeoffs</li>
+      <li>Explains every high-risk decision using SHAP values</li>
+      <li>Generates analyst-friendly summaries using a governed GenAI layer</li>
+    </ul>
+  </section>
+
+  <section class="section tech-stack">
+    <h2>Built With</h2>
+    <div class="pill-container">
+      <span class="pill">Python</span>
+      <span class="pill">Polars (High-Performance ETL)</span>
+      <span class="pill">XGBoost</span>
+      <span class="pill">SHAP</span>
+      <span class="pill">Llama 3.1 (Local via Ollama)</span>
+      <span class="pill">Streamlit</span>
+    </div>
+  </section>
+
+  <section class="section metrics">
+    <h2>Key Results</h2>
+
+    <div class="metric-grid">
+      <div class="metric">
+        <span class="value">~90k</span>
+        <span class="label">Transactions Evaluated</span>
+      </div>
+      <div class="metric">
+        <span class="value">81%</span>
+        <span class="label">Fraud Caught</span>
+      </div>
+      <div class="metric">
+        <span class="value">~90%</span>
+        <span class="label">Approval Rate</span>
+      </div>
+      <div class="metric">
+        <span class="value">0.09</span>
+        <span class="label">Optimal Threshold</span>
+      </div>
+    </div>
+
+    <p class="note">
+      All economic values are computed in local currency units provided by the dataset.
+      The goal is to compare decisions consistently, not estimate real-world profit.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>How Decisions Are Made</h2>
+    <p>
+      Instead of using a fixed probability cutoff, I sweep thresholds and choose the one
+      that maximizes net value. This means explicitly modeling:
+    </p>
+    <ul>
+      <li>Fraud losses from missed fraud</li>
+      <li>Customer friction from false declines</li>
+      <li>Revenue preserved from approved transactions</li>
+    </ul>
+    <p>
+      This helped me understand how risk teams think beyond accuracy metrics.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Project Scope</h2>
+    <p>
+        This project is a simulation of a production‑style payment risk system.
+        It’s designed to explore architecture, decisioning, and explainability —
+        not to serve as a live or deployed product.
+    </p>
+    <p>
+        All monetary values are expressed in local currency units provided by the dataset,
+        and no geographic or exchange‑rate assumptions are made.
+    </p>
+    </section>
+
+
+  <section class="section">
+    <h2>Explainability & GenAI (Privacy-First)</h2>
+    <p>
+      In the payments industry, customer data cannot simply be sent to public AI APIs.
+      To solve this, I integrated a <strong>local, air-gapped LLM (Llama 3.1)</strong> via Ollama.
+    </p>
+    <p>
+      The AI never makes decisions—it only translates the mathematical SHAP drivers into
+      human-readable analyst summaries. Strict guardrails ensure the model never hallucinates
+      unverified data, and every generation logs its latency and compliance status for full auditability.
+    </p>
+  </section>
+
+  <section class="section screenshots">
+    <h2>Dashboard Walkthrough</h2>
+    <p>
+      A look at the analyst-facing Streamlit interface, moving from alert queue triage 
+      to mathematical explainability, and finally to GenAI narrative generation.
+    </p>
+    
+    <div class="screenshot-grid">
+      <figure class="screenshot-figure">
+        <img src="assets/dashboard-1.png" alt="High-Risk Alert Queue and Policy Metrics" class="screenshot clickable-image">
+        <figcaption>Top section: Risk Score vs. Threshold and final Policy Decision.</figcaption>
+      </figure>
+      
+      <figure class="screenshot-figure">
+        <img src="assets/dashboard-2.png" alt="SHAP Behavioral Drivers Chart" class="screenshot clickable-image">
+        <figcaption>Middle section: Behavioral drivers explained via SHAP chart and raw values.</figcaption>
+      </figure>
+      
+      <figure class="screenshot-figure">
+        <img src="assets/dashboard-3.png" alt="GenAI Analyst Summary and Telemetry" class="screenshot clickable-image">
+        <figcaption>Bottom section: Local GenAI narrative generation insights.</figcaption>
+      </figure>
+
+      <figure class="screenshot-figure">
+        <img src="assets/dashboard-5.png" alt="GenAI Summary Telemetry and Analyst Decisions" class="screenshot clickable-image">
+        <figcaption>Bottom section: GenAI latency telemetry and analyst decision window.</figcaption>
+      </figure>
+    </div>
+
+  <section class="section demo" id="demo">
+    <h2>Demo</h2>
+    <p>
+      Below is a short demo showing how an analyst would review a high-risk transaction,
+      inspect explainability, and generate an AI-assisted summary.
+    </p>
+
+    <!-- Replace this later with your video embed -->
+    <div class="video-container">
+      <video controls preload="metadata" poster="assets/dashboard-4.png">
+        <source src="assets/demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+        I’m a data science student who’s especially interested in payments, risk systems,
+        and how machine learning is used in real operational settings.
+    </p>
+    <p>
+        I enjoy working on projects that sit between modeling and product — where technical
+        decisions have real tradeoffs and constraints. This project reflects how I like to learn:
+        by building systems end‑to‑end and thinking about how they would actually be used.
+    </p>
+    <p class="about-links"> You can find me on <a href="https://github.com/jessicabat" target="_blank">GitHub</a>, <a href="https://linkedin.com/in/jessica-batbayar" target="_blank">LinkedIn</a>, or reach out via <a href="mailto:jessica.ybat@gmail.com">email</a>. </p>
+    </section>
+
+
+  <section class="section">
+    <h2>What I Learned</h2>
+    <ul>
+      <li>Why economic optimization matters more than raw accuracy</li>
+      <li>How explainability changes how models are trusted</li>
+      <li>How GenAI can be useful without being in control</li>
+      <li>What it means to think about ML systems as products</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Future Directions</h2>
+    <ul>
+        <li>Exploring how analyst feedback could be incorporated into model iteration</li>
+        <li>Adding drift monitoring to understand how risk patterns change over time</li>
+        <li>Experimenting with simpler models to compare economic outcomes</li>
+        <li>Improving dashboard usability based on analyst workflows</li>
+    </ul>
+    </section>
+
+
+  <footer>
+    <p> Built by a curious data science student exploring how real payment systems work. </p>
+    <p>
+      <a href="https://github.com/jessicabat/payment-risk-insight-platform" target="_blank">View the code on GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
