@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background: #111827;
+  background: #1434CB;
   color: white;
   padding: 3rem 2rem;
   text-align: center;
@@ -57,6 +57,7 @@ ul {
 .metric .value {
   font-size: 2rem;
   font-weight: bold;
+  color: #259f47;
 }
 
 .metric .label {
@@ -83,7 +84,7 @@ ul {
 footer {
   text-align: center;
   padding: 2rem;
-  background: #111827;
+  background: #1434CB;
   color: #d1d5db;
 }
 
@@ -108,21 +109,6 @@ footer a {
   font-weight: 500;
 }
 
-.metric {
-  background: #ffffff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  text-align: center;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.metric .value {
-  font-size: 2.5rem; /* Slightly larger */
-  font-weight: 800; /* Bolder */
-  color: #111827; /* Darker for contrast */
-}
-
 /* Add these styles */
 .header-cta {
   margin-top: 2rem;
@@ -145,7 +131,7 @@ footer a {
 }
 
 .btn.primary:hover {
-  background: #1d4ed8;
+  background: #fcc015;
 }
 
 .btn.secondary {
