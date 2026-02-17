@@ -11,6 +11,8 @@ This project simulates a real-world payment risk platform designed to:
 
 Rather than focusing on model experimentation alone, the system is built end-to-end as a **decisioning product**, from data governance through to the analyst experience.
 
+[🌐 Project Website](https://jessicabat.github.io/payment-risk-insight-platform/)
+
 ## System Performance & Business Metrics
 The system was evaluated on a held-out chronological test set to simulate production deployment.
 
@@ -83,11 +85,11 @@ src/
 └── models/               # XGBoost training and SHAP explainability
 notebooks/                # Economic threshold optimization analysis
 artifacts/                # Frozen policies, models, and SHAP payloads
-site/                     # Website assets
+docs/                     # Website assets
 ```
 
 ## Demo
-A video walkthrough of the Analyst Dashboard and GenAI integration can be viewed on my Project Portfolio Website. (Link pending)
+A video walkthrough of the Analyst Dashboard and GenAI integration can be viewed on my [🌐 Project Website](https://jessicabat.github.io/payment-risk-insight-platform/)
 
 ## Running the Project Locally
 
