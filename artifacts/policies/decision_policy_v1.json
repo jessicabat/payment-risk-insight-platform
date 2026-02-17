@@ -1,0 +1,10 @@
+{
+  "policy_name": "paysim_behavior_only_v1",
+  "model_artifact": "artifacts/models/xgb_v1.joblib",
+  "threshold": 0.09,
+  "decision_labels": {
+    "block": "DECLINE",
+    "allow": "APPROVE"
+  },
+  "notes": "Threshold chosen via net economic value optimization to maximize profit while managing false positives."
+}
