@@ -1,0 +1,29 @@
+{
+  "MARGIN_RATE": 0.02,
+  "REVIEW_COST": 5.0,
+  "USE_TRANSACTION_AMOUNTS": true,
+  "AVG_FRAUD_LOSS": 1711368.0379895365,
+  "FRAUD_MULTIPLIER": 1.5,
+  "model_artifact": "../artifacts/models/xgb_v1.joblib",
+  "feature_set": [
+    "txn_type_CASH_IN",
+    "txn_type_CASH_OUT",
+    "txn_type_DEBIT",
+    "txn_type_PAYMENT",
+    "txn_type_TRANSFER",
+    "amount",
+    "hour",
+    "is_night",
+    "txn_count_24h",
+    "avg_amount_24h",
+    "amount_deviation",
+    "time_since_last_txn_hr",
+    "amount_ratio_24h",
+    "is_transfer",
+    "is_cash_out",
+    "transfer_in_last_6h",
+    "transfer_then_cashout_6h"
+  ],
+  "test_window": "day >= 26",
+  "num_test_transactions": 89698
+}

@@ -7,6 +7,7 @@ Enforces strict guardrails to prevent hallucination of non-PaySim facts.
 
 import requests
 import json
+import time
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.1:8b"
@@ -31,7 +32,7 @@ def build_prompt(transaction: dict, decision: str) -> str:
     
     return f"""
     You are an expert fraud analyst assistant. 
-    Write a brief, professional 2-3 sentence summary explaining why this transaction was flagged.
+    Write a brief, professional 2-3 sentence summary explaining why this transaction was flagged. Describe features as risk indicators, not anomalies or intent.
     
     RULES:
     - ONLY use the data provided below.
@@ -47,23 +48,40 @@ def build_prompt(transaction: dict, decision: str) -> str:
     """
 
 # --- GENERATOR ---
-def generate_insight(transaction: dict, decision: str) -> str:
+def generate_insight(transaction: dict, decision: str) -> dict:
+    """Generates the insight and returns telemetry metrics alongside the text."""
     prompt = build_prompt(transaction, decision)
+    
+    start_time = time.time()
     
     try:
         response = requests.post(
             OLLAMA_URL,
             json={"model": MODEL, "prompt": prompt, "stream": False},
-            timeout=120 # Prevent hanging
+            timeout=120
         )
         response.raise_for_status()
         narrative = response.json().get("response", "").strip()
         
+        latency_ms = int((time.time() - start_time) * 1000)
+        
         # Apply Guardrails
-        if validate_guardrails(narrative):
-            return narrative
-        else:
-            return "GUARDRAIL TRIGGERED: The LLM generated a narrative containing unverified assumptions. Please review the structured SHAP drivers manually."
+        passed_guardrails = validate_guardrails(narrative)
+        if not passed_guardrails:
+            narrative = "GUARDRAIL TRIGGERED: The LLM generated a narrative containing unverified assumptions. Please review the structured SHAP drivers manually."
+            
+        return {
+            "narrative": narrative,
+            "latency_ms": latency_ms,
+            "guardrail_passed": passed_guardrails,
+            "error": None
+        }
             
     except requests.exceptions.RequestException as e:
-        return f"LLM Connection Error: Ensure Ollama is running. ({e})"
+        latency_ms = int((time.time() - start_time) * 1000)
+        return {
+            "narrative": "LLM Connection Error.",
+            "latency_ms": latency_ms,
+            "guardrail_passed": False,
+            "error": str(e)
+        }

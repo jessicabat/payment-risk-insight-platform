@@ -7,6 +7,7 @@ Simulates an analyst dashboard requesting an explanation for a high-risk transac
 import json
 import sys
 from pathlib import Path
+from src.audit.logger import log_generation
 
 # Adjust path so we can import from src
 sys.path.append(str(Path(__file__).resolve().parents[2]))
@@ -42,11 +43,29 @@ def main():
     
     print("\nGenerating AI Insight via local LLM... (This may take 10-20 seconds)\n")
     
-    narrative = generate_insight(target_txn, decision)
+    # generate_insight now returns a dictionary
+    result = generate_insight(target_txn, decision)
     
+    # 1. Print for the user
     print(" [ AI INSIGHT ]")
-    print(f" {narrative}")
+    print(f" {result['narrative']}")
     print("\n" + "="*50)
+    
+    # 2. Package and log the Product Metrics
+    audit_record = {
+        "transaction_index": target_txn["transaction_index"],
+        "risk_score": score,
+        "decision": decision,
+        "llm_latency_ms": result["latency_ms"],
+        "guardrail_passed": result["guardrail_passed"],
+        "error": result["error"],
+        "model_version": policy["model_artifact"].split("/")[-1],
+        "policy_version": policy["policy_name"],
+        "prompt_version": "v1.0"
+    }
+    
+    log_generation(audit_record)
+    print(f"Metrics logged to artifacts/audit/generation_logs.jsonl (Latency: {result['latency_ms']}ms)")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,1 @@
+{"transaction_index": 59037, "risk_score": 0.929237425327301, "decision": "DECLINE", "llm_latency_ms": 45294, "guardrail_passed": true, "error": null, "model_version": "xgb_v1.joblib", "policy_version": "paysim_behavior_only_v1", "prompt_version": "v1.0", "timestamp": "2026-02-17T16:59:45.592948+00:00"}
