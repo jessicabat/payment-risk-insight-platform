@@ -6,3 +6,4 @@ __pycache__/
 src/genai/__pycache__/
 notebooks/__pycache__/
 *.ipynb_checkpoints
+*.pyc

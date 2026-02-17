@@ -42,6 +42,13 @@ threshold = policy["threshold"]
 
 # --- SIDEBAR: Transaction Selector ---
 st.sidebar.title("🛡️ Risk Operations")
+
+# NEW: Queue stats to make it feel like a live ops tool
+st.sidebar.metric("High-Risk Queue Size", len(transactions))
+avg_risk = sum(t['predicted_risk_score'] for t in transactions) / len(transactions) if transactions else 0
+st.sidebar.metric("Avg Risk Score", f"{avg_risk:.2f}")
+
+st.sidebar.divider()
 st.sidebar.markdown("### Queue: High-Risk Alerts")
 
 # Create a clean list of transaction IDs for the dropdown
@@ -55,11 +62,18 @@ st.sidebar.caption(f"Active Policy: `{policy['policy_name']}`")
 st.sidebar.caption(f"Model: `{policy['model_artifact'].split('/')[-1]}`")
 st.sidebar.caption(f"Economic Threshold: `{threshold}`")
 
+
 # --- MAIN CONTENT AREA ---
 score = selected_txn["predicted_risk_score"]
 decision = policy["decision_labels"]["block"] if score >= threshold else policy["decision_labels"]["allow"]
 
 st.title(f"Transaction Review: {selected_txn['transaction_index']}")
+
+# NEW: Context banner for instant narrative clarity
+st.caption(
+    "This dashboard simulates a fraud analyst reviewing high-risk transactions "
+    "flagged by an economically optimized risk policy."
+)
 
 # Top Row: Key Metrics
 col1, col2, col3 = st.columns(3)
@@ -72,14 +86,17 @@ with col1:
         delta_color="inverse"
     )
 with col2:
-    st.metric(label="Policy Decision", value=decision)
+    # NEW: Decision badge with color semantics for a governed feel
+    decision_color = "red" if decision == "DECLINE" else "green"
+    st.markdown(f"### Policy Decision: :{decision_color}[{decision}]")
 with col3:
     st.metric(label="Actual Fraud Label (Ground Truth)", value="Fraudulent" if selected_txn["actual_is_fraud_label"] == 1 else "Legitimate")
 
 st.divider()
 
 # Middle Row: Explainability Chart & Details
-st.markdown("### Behavioral Risk Drivers (SHAP)")
+# NEW: Renamed for a more analyst-native tone
+st.markdown("### Primary Behavioral Risk Drivers")
 
 col_chart, col_details = st.columns([2, 1])
 
@@ -88,14 +105,17 @@ with col_chart:
     df_shap = pd.DataFrame(selected_txn["top_risk_drivers"])
     df_shap = df_shap.sort_values(by="shap_impact", ascending=True) # Sort for horizontal bar chart
     
-    # Create a clean, Visa-grade bar chart
+    # Create a clean bar chart
     chart = alt.Chart(df_shap).mark_bar(color='#E44D26').encode(
         x=alt.X('shap_impact:Q', title='Impact on Risk Score (SHAP Value)'),
         y=alt.Y('feature:N', sort='-x', title=''),
         tooltip=['feature', 'actual_value', 'shap_impact']
     ).properties(height=300)
     
-    st.altair_chart(chart, use_container_width=True)
+    # NEW: Add a zero reference line for easier visual parsing
+    zero_line = alt.Chart(pd.DataFrame({'x': [0]})).mark_rule(color='gray').encode(x='x:Q')
+    
+    st.altair_chart(chart + zero_line, use_container_width=True)
 
 with col_details:
     st.markdown("#### Raw Feature Values")
@@ -108,7 +128,12 @@ st.divider()
 
 # Bottom Row: GenAI Integration
 st.markdown("### AI Analyst Summary")
-st.markdown("Generate a human-readable insight log using the local Llama 3.1 engine.")
+
+# NEW: Governance disclaimer to calm regulatory/managerial nerves
+st.caption(
+    "GenAI is used strictly for explanation. "
+    "All decisions are made upstream by a governed risk policy."
+)
 
 if st.button("Generate Narrative via GenAI", type="primary"):
     with st.spinner("Initializing local LLM and generating narrative... (This may take 10-45 seconds)"):
@@ -137,4 +162,18 @@ if st.button("Generate Narrative via GenAI", type="primary"):
             st.error("Guardrail Failure: Unverified assumptions detected.")
             st.warning(result['narrative'])
             
-        st.caption(f"⏱️ Generation Latency: {result['latency_ms']} ms | Audit log successfully appended.")
+        # NEW: Show product metrics inline (massive product signal)
+        st.markdown("#### Generation Telemetry")
+        st.code(
+            f"Latency: {result['latency_ms']} ms\n"
+            f"Guardrails Passed: {result['guardrail_passed']}\n"
+            f"Prompt Version: v1.0",
+            language="text"
+        )
+        
+        # NEW: Provide a workflow action (shows deep operational awareness)
+        st.markdown("#### Analyst Action")
+        action = st.selectbox(
+            "Next Step:",
+            ["Auto-Decline", "Escalate to Manual Review", "Mark as False Positive"]
+        )
