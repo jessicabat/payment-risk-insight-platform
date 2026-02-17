@@ -1,0 +1,70 @@
+[
+  {
+    "feature": "txn_type_CASH_OUT",
+    "mean_abs_shap": 0.4165617525577545
+  },
+  {
+    "feature": "amount",
+    "mean_abs_shap": 0.3707673251628876
+  },
+  {
+    "feature": "txn_type_TRANSFER",
+    "mean_abs_shap": 0.3660750389099121
+  },
+  {
+    "feature": "hour",
+    "mean_abs_shap": 0.284588098526001
+  },
+  {
+    "feature": "avg_amount_24h",
+    "mean_abs_shap": 0.15676243603229523
+  },
+  {
+    "feature": "txn_type_PAYMENT",
+    "mean_abs_shap": 0.14234603941440582
+  },
+  {
+    "feature": "txn_type_CASH_IN",
+    "mean_abs_shap": 0.10538236051797867
+  },
+  {
+    "feature": "is_cash_out",
+    "mean_abs_shap": 0.09423317760229111
+  },
+  {
+    "feature": "is_transfer",
+    "mean_abs_shap": 0.05930149927735329
+  },
+  {
+    "feature": "is_night",
+    "mean_abs_shap": 0.02950630523264408
+  },
+  {
+    "feature": "transfer_in_last_6h",
+    "mean_abs_shap": 0.02030239999294281
+  },
+  {
+    "feature": "amount_ratio_24h",
+    "mean_abs_shap": 0.0005888091982342303
+  },
+  {
+    "feature": "txn_type_DEBIT",
+    "mean_abs_shap": 0.00045018308446742594
+  },
+  {
+    "feature": "time_since_last_txn_hr",
+    "mean_abs_shap": 0.00010947350529022515
+  },
+  {
+    "feature": "amount_deviation",
+    "mean_abs_shap": 7.15810019755736e-05
+  },
+  {
+    "feature": "txn_count_24h",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "feature": "transfer_then_cashout_6h",
+    "mean_abs_shap": 0.0
+  }
+]

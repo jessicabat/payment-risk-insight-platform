@@ -1,0 +1,12 @@
+{
+  "val_auc_roc": 0.9507242376940265,
+  "val_auc_pr": 0.4197589193577264,
+  "test_auc_roc": 0.9483683747896396,
+  "test_auc_pr": 0.5353901853620032,
+  "best_iteration": 48,
+  "scale_pos_weight": 50.0,
+  "n_train": 6064026,
+  "n_val": 208896,
+  "n_test": 89698,
+  "feature_count": 17
+}

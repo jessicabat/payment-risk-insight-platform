@@ -1,0 +1,6402 @@
+[
+  {
+    "transaction_index": 59037,
+    "predicted_risk_score": 0.929237425327301,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8128834962844849,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.8120650053024292,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8559523820877075,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8057001829147339,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20869292318820953,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 54659,
+    "predicted_risk_score": 0.929237425327301,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8746306896209717,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.6714050769805908,
+        "actual_value": 2216437.25
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9122890830039978,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8020727634429932,
+        "actual_value": 2216437.25
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.2082737386226654,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 85698,
+    "predicted_risk_score": 0.929237425327301,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8128834962844849,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.8120650053024292,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8559523820877075,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8057001829147339,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20869292318820953,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 80571,
+    "predicted_risk_score": 0.929237425327301,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8128834962844849,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.8120650053024292,
+        "actual_value": 3547010.54
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8559523820877075,
+        "actual_value": 3547010.54
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8057001829147339,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20869292318820953,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 9122,
+    "predicted_risk_score": 0.929237425327301,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8128834962844849,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.8120650053024292,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8559523820877075,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8057001829147339,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20869292318820953,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 81542,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8720916509628296,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5713651180267334,
+        "actual_value": 2054631.55
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8849122524261475,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6967403292655945,
+        "actual_value": 2054631.55
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 64446,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8102411031723022,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7142283916473389,
+        "actual_value": 8488865.83
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 8488865.83
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 32531,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.808612585067749,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7142283916473389,
+        "actual_value": 2911505.23
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 2911505.23
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 21395,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8102411031723022,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7142283916473389,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 40989,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8737201690673828,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5713651180267334,
+        "actual_value": 1947831.96
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8849122524261475,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6967403292655945,
+        "actual_value": 1947831.96
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 28563,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.808612585067749,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7142283916473389,
+        "actual_value": 5016884.33
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 5016884.33
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 27462,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.808612585067749,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7142283916473389,
+        "actual_value": 3542716.02
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 3542716.02
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 14725,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8102411031723022,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7142283916473389,
+        "actual_value": 9295454.24
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 9295454.24
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 8314,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8102411031723022,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7142283916473389,
+        "actual_value": 8537861.24
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 8537861.24
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 81384,
+    "predicted_risk_score": 0.9289701581001282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.8737201690673828,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5713651180267334,
+        "actual_value": 2433009.28
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8849122524261475,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6967403292655945,
+        "actual_value": 2433009.28
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 7881,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.7932995557785034,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7124056816101074,
+        "actual_value": 9996886.64
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 9996886.64
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 43757,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.856778860092163,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.569542407989502,
+        "actual_value": 2772043.9
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8849122524261475,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6967403292655945,
+        "actual_value": 2772043.9
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 10950,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.7932995557785034,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7124056816101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 37225,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.856778860092163,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.569542407989502,
+        "actual_value": 2763398.31
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8849122524261475,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6967403292655945,
+        "actual_value": 2763398.31
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 25345,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.856778860092163,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.569542407989502,
+        "actual_value": 2232257.71
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8849122524261475,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6967403292655945,
+        "actual_value": 2232257.71
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 25909,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.856778860092163,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.569542407989502,
+        "actual_value": 2756011.78
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8849122524261475,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6967403292655945,
+        "actual_value": 2756011.78
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 5896,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.7932995557785034,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7124056816101074,
+        "actual_value": 6199009.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 6199009.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 36833,
+    "predicted_risk_score": 0.9279743432998657,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.7932995557785034,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.7124056816101074,
+        "actual_value": 2935952.76
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7627328038215637,
+        "actual_value": 2935952.76
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7331026792526245,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 9973,
+    "predicted_risk_score": 0.9265472888946533,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.097248077392578,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.420426368713379,
+        "actual_value": 940957.88
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8339062929153442,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.5656201839447021,
+        "actual_value": 940957.88
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 51723,
+    "predicted_risk_score": 0.9264170527458191,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9071251153945923,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5948975086212158,
+        "actual_value": 1539474.57
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9410436749458313,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7701093554496765,
+        "actual_value": 1539474.57
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20773941278457642,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 23707,
+    "predicted_risk_score": 0.9264170527458191,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9071251153945923,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5948975086212158,
+        "actual_value": 1536733.52
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9410436749458313,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7701093554496765,
+        "actual_value": 1536733.52
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20773941278457642,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 14165,
+    "predicted_risk_score": 0.9264065027236938,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9062145948410034,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.497040867805481,
+        "actual_value": 1600721.32
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9031573534011841,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6705242991447449,
+        "actual_value": 1600721.32
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23744578659534454,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 62794,
+    "predicted_risk_score": 0.9256214499473572,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9325320720672607,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.6073946952819824,
+        "actual_value": 1290224.84
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9211446046829224,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7251523733139038,
+        "actual_value": 1290224.84
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20727065205574036,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 11044,
+    "predicted_risk_score": 0.9256107807159424,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9299927949905396,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5136115550994873,
+        "actual_value": 1379501.18
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8737063407897949,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.627336323261261,
+        "actual_value": 1379501.18
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.2415665239095688,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 25995,
+    "predicted_risk_score": 0.9255202412605286,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.0803065299987793,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.418603777885437,
+        "actual_value": 953529.64
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8339062929153442,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.5656201839447021,
+        "actual_value": 953529.64
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 47285,
+    "predicted_risk_score": 0.9255202412605286,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.0803065299987793,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.418603777885437,
+        "actual_value": 950766.15
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8339062929153442,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.5656201839447021,
+        "actual_value": 950766.15
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 45948,
+    "predicted_risk_score": 0.9254409670829773,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9806498289108276,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.4976547956466675,
+        "actual_value": 1136374.62
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8628432750701904,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6006003022193909,
+        "actual_value": 1136374.62
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24421870708465576,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 55661,
+    "predicted_risk_score": 0.9254409670829773,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9806498289108276,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.4976547956466675,
+        "actual_value": 1051018.15
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8628432750701904,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6006003022193909,
+        "actual_value": 1051018.15
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24421870708465576,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 28493,
+    "predicted_risk_score": 0.9246119856834412,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.29701828956604,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.27425217628479,
+        "actual_value": 873322.61
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7968255281448364,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.5154130458831787,
+        "actual_value": 873322.61
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3302866518497467,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 41089,
+    "predicted_risk_score": 0.9246119856834412,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.29701828956604,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.27425217628479,
+        "actual_value": 892213.56
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7968255281448364,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.5154130458831787,
+        "actual_value": 892213.56
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3302866518497467,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 35869,
+    "predicted_risk_score": 0.9245716333389282,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.914679765701294,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5117888450622559,
+        "actual_value": 1232697.94
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8737063407897949,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.627336323261261,
+        "actual_value": 1232697.94
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.2415665239095688,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 3360,
+    "predicted_risk_score": 0.9243996739387512,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.9637084007263184,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.4958322048187256,
+        "actual_value": 1091589.88
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8628432750701904,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6006003022193909,
+        "actual_value": 1091589.88
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24421870708465576,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 39132,
+    "predicted_risk_score": 0.9234412908554077,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8455742597579956,
+        "actual_value": 3150438.28
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.6276733875274658,
+        "actual_value": 7.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9420684576034546,
+        "actual_value": 3150438.28
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7916489839553833,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20528243482112885,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 87033,
+    "predicted_risk_score": 0.9234412908554077,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8455742597579956,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.6276733875274658,
+        "actual_value": 7.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9420684576034546,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7916489839553833,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20528243482112885,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 13054,
+    "predicted_risk_score": 0.9234412908554077,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8455742597579956,
+        "actual_value": 3120690.98
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.6276733875274658,
+        "actual_value": 7.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9420684576034546,
+        "actual_value": 3120690.98
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7916489839553833,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20528243482112885,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 17853,
+    "predicted_risk_score": 0.9234412908554077,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8455742597579956,
+        "actual_value": 6498297.7
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.6276733875274658,
+        "actual_value": 7.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9420684576034546,
+        "actual_value": 6498297.7
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7916489839553833,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20528243482112885,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 18368,
+    "predicted_risk_score": 0.9234412908554077,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8455742597579956,
+        "actual_value": 6377401.2
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.6276733875274658,
+        "actual_value": 7.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9420684576034546,
+        "actual_value": 6377401.2
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7916489839553833,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20528243482112885,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 19340,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7837026119232178,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.5835351943969727,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8458190560340881,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7041283845901489,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 67553,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7837026119232178,
+        "actual_value": 6250438.78
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.5835351943969727,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8458190560340881,
+        "actual_value": 6250438.78
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7041283845901489,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 52729,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7837026119232178,
+        "actual_value": 3288377.47
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.5835351943969727,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8458190560340881,
+        "actual_value": 3288377.47
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7041283845901489,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 46743,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.6470142602920532,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.6408393383026123,
+        "actual_value": 2479767.72
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8559380173683167,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7798265814781189,
+        "actual_value": 2479767.72
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 47795,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.6470142602920532,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.6408393383026123,
+        "actual_value": 2360965.74
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8559380173683167,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7798265814781189,
+        "actual_value": 2360965.74
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 20205,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7837026119232178,
+        "actual_value": 9097679.75
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.5835351943969727,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8458190560340881,
+        "actual_value": 9097679.75
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7041283845901489,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 42066,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.6470142602920532,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.6408393383026123,
+        "actual_value": 2184556.65
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8559380173683167,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7798265814781189,
+        "actual_value": 2184556.65
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 88993,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7837026119232178,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.5835351943969727,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8458190560340881,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7041283845901489,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 24977,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7837026119232178,
+        "actual_value": 4480592.14
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.5835351943969727,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8458190560340881,
+        "actual_value": 4480592.14
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7041283845901489,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 12713,
+    "predicted_risk_score": 0.9215021133422852,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7837026119232178,
+        "actual_value": 3071270.72
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.5835351943969727,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8458190560340881,
+        "actual_value": 3071270.72
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7041283845901489,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 68377,
+    "predicted_risk_score": 0.9205532670021057,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6579036712646484,
+        "actual_value": 6219566.63
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1805890798568726,
+        "actual_value": 6219566.63
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9956268072128296,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.3659656047821045,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2540799379348755,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 33670,
+    "predicted_risk_score": 0.9205532670021057,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6579036712646484,
+        "actual_value": 6311409.28
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1805890798568726,
+        "actual_value": 6311409.28
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9956268072128296,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.3659656047821045,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2540799379348755,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 2520,
+    "predicted_risk_score": 0.9205532670021057,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6579036712646484,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1805890798568726,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9956268072128296,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.3659656047821045,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2540799379348755,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 33051,
+    "predicted_risk_score": 0.9205532670021057,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6579036712646484,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1805890798568726,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9956268072128296,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.3659656047821045,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2540799379348755,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 43018,
+    "predicted_risk_score": 0.9205532670021057,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6579036712646484,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1805890798568726,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9956268072128296,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.3659656047821045,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2540799379348755,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 70034,
+    "predicted_risk_score": 0.9205532670021057,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6579036712646484,
+        "actual_value": 7435751.59
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1805890798568726,
+        "actual_value": 7435751.59
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9956268072128296,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.3659656047821045,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2540799379348755,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 47693,
+    "predicted_risk_score": 0.9205532670021057,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.471438407897949,
+        "actual_value": 2253811.33
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.174433708190918,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1122063398361206,
+        "actual_value": 2253811.33
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.37220123410224915,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3167931139469147,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 82088,
+    "predicted_risk_score": 0.9197984933853149,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.6931171417236328,
+        "actual_value": 2391612.36
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.6531634330749512,
+        "actual_value": 7.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9065855741500854,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8567242622375488,
+        "actual_value": 2391612.36
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20272772014141083,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 32912,
+    "predicted_risk_score": 0.9188467860221863,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.870542049407959,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.4899002313613892,
+        "actual_value": 916886.3
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8049319386482239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6487064957618713,
+        "actual_value": 916886.3
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 53643,
+    "predicted_risk_score": 0.9188467860221863,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.870542049407959,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.4899002313613892,
+        "actual_value": 932922.6
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8049319386482239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6487064957618713,
+        "actual_value": 932922.6
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 6818,
+    "predicted_risk_score": 0.9178207516670227,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.7049152851104736,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5830856561660767,
+        "actual_value": 1242226.78
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8447321057319641,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.710422694683075,
+        "actual_value": 1242226.78
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.2415665239095688,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 48413,
+    "predicted_risk_score": 0.9178207516670227,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.7049152851104736,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5830856561660767,
+        "actual_value": 1264551.38
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8447321057319641,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.710422694683075,
+        "actual_value": 1264551.38
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.2415665239095688,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 35110,
+    "predicted_risk_score": 0.9176346659660339,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 1.753943920135498,
+        "actual_value": 2.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.5671288967132568,
+        "actual_value": 1158396.74
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8338689208030701,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.6836866736412048,
+        "actual_value": 1158396.74
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24421870708465576,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 49756,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 37980,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 81933,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 5175876.53
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 5175876.53
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 74221,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 9749042.95
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 9749042.95
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 48612,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 8980853.88
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 8980853.88
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 26601,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 6468916.64
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 6468916.64
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 15439,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.500354766845703,
+        "actual_value": 1938347.14
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.1662168502807617,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1205096244812012,
+        "actual_value": 1938347.14
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30948808789253235,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2934586703777313,
+        "actual_value": 22.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 48733,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 39116,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 50154,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.500354766845703,
+        "actual_value": 2113271.99
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.1662168502807617,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1205096244812012,
+        "actual_value": 2113271.99
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30948808789253235,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2934586703777313,
+        "actual_value": 22.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 41539,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 888,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 72722,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 4009058.39
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 4009058.39
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 69806,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 49106,
+    "predicted_risk_score": 0.9161405563354492,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6897435188293457,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1879916191101074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9815636873245239,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2892454266548157,
+        "actual_value": 22.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.24677488207817078,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 21827,
+    "predicted_risk_score": 0.9151583909988403,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.3658313751220703,
+        "actual_value": 1842163.57
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.229306936264038,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0781806707382202,
+        "actual_value": 1842163.57
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.37469014525413513,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3365922272205353,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 54319,
+    "predicted_risk_score": 0.9151583909988403,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.3658313751220703,
+        "actual_value": 1517771.48
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.229306936264038,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0781806707382202,
+        "actual_value": 1517771.48
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.37469014525413513,
+        "actual_value": 23.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3365922272205353,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 22812,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8369882106781006,
+        "actual_value": 6512846.44
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2058197259902954,
+        "actual_value": 6512846.44
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9538015723228455,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.23414072394371033,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14166854321956635,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 61137,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8369882106781006,
+        "actual_value": 5388834.64
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2058197259902954,
+        "actual_value": 5388834.64
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9538015723228455,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.23414072394371033,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14166854321956635,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 74103,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8369882106781006,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2058197259902954,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9538015723228455,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.23414072394371033,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14166854321956635,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 68018,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8369882106781006,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2058197259902954,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9538015723228455,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.23414072394371033,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14166854321956635,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 18287,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8369882106781006,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2058197259902954,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9538015723228455,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.23414072394371033,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14166854321956635,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 24207,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8369882106781006,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2058197259902954,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9538015723228455,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.23414072394371033,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14166854321956635,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 31307,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6468987464904785,
+        "actual_value": 2624422.62
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.138454556465149,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1383377313613892,
+        "actual_value": 2624422.62
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2968539595603943,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14518103003501892,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 44885,
+    "predicted_risk_score": 0.9139017462730408,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8369882106781006,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2058197259902954,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9538015723228455,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.23414072394371033,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14166854321956635,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 30986,
+    "predicted_risk_score": 0.9125108122825623,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.262204170227051,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2036771774291992,
+        "actual_value": 8537861.24
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9775158762931824,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 8537861.24
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 63064,
+    "predicted_risk_score": 0.9125108122825623,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.262204170227051,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2036771774291992,
+        "actual_value": 9295454.24
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9775158762931824,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 9295454.24
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 3539,
+    "predicted_risk_score": 0.9125108122825623,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.262204170227051,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2036771774291992,
+        "actual_value": 8488865.83
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9775158762931824,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 8488865.83
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 2283,
+    "predicted_risk_score": 0.9125108122825623,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.262204170227051,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2036771774291992,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9775158762931824,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 17424,
+    "predicted_risk_score": 0.9124212861061096,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.7506449222564697,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 0.8658197522163391,
+        "actual_value": 740124.95
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.6959478855133057,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.38483402132987976,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.3775908946990967,
+        "actual_value": 740124.95
+      }
+    ]
+  },
+  {
+    "transaction_index": 74125,
+    "predicted_risk_score": 0.9124212861061096,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.7506449222564697,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 0.8658197522163391,
+        "actual_value": 762782.66
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.6959478855133057,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.38483402132987976,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.3775908946990967,
+        "actual_value": 762782.66
+      }
+    ]
+  },
+  {
+    "transaction_index": 46728,
+    "predicted_risk_score": 0.9124212861061096,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.7522737979888916,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 0.8658197522163391,
+        "actual_value": 731113.99
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.6959478855133057,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.38483402132987976,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.3775908946990967,
+        "actual_value": 731113.99
+      }
+    ]
+  },
+  {
+    "transaction_index": 22478,
+    "predicted_risk_score": 0.9122022986412048,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.3355255126953125,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0296025276184082,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8562363982200623,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.5588756799697876,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 9821,
+    "predicted_risk_score": 0.9122022986412048,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.3355255126953125,
+        "actual_value": 7218629.01
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0296025276184082,
+        "actual_value": 7218629.01
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8562363982200623,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.5588756799697876,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 4778,
+    "predicted_risk_score": 0.9122022986412048,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.1455085277557373,
+        "actual_value": 2626957.79
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0759820938110352,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9574587941169739,
+        "actual_value": 2626957.79
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.5724060535430908,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 29104,
+    "predicted_risk_score": 0.9116732478141785,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.25535249710083,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2036771774291992,
+        "actual_value": 5016884.33
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9739212989807129,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 5016884.33
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 59708,
+    "predicted_risk_score": 0.9116732478141785,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.25535249710083,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2036771774291992,
+        "actual_value": 3542716.02
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9739212989807129,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 3542716.02
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 57261,
+    "predicted_risk_score": 0.9116732478141785,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.25535249710083,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2036771774291992,
+        "actual_value": 2911505.23
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9739212989807129,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 2911505.23
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 505,
+    "predicted_risk_score": 0.9104751348495483,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.394747734069824,
+        "actual_value": 1819543.69
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2210899591445923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0840816497802734,
+        "actual_value": 1819543.69
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.32928720116615295,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2935452461242676,
+        "actual_value": 22.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 44872,
+    "predicted_risk_score": 0.9093498587608337,
+    "actual_is_fraud_label": 0,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.2322275638580322,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2039586305618286,
+        "actual_value": 9640565.43
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9688975214958191,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 9640565.43
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 33444,
+    "predicted_risk_score": 0.9093498587608337,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.2322275638580322,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2039586305618286,
+        "actual_value": 9996886.64
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9688975214958191,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 9996886.64
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 45537,
+    "predicted_risk_score": 0.9093498587608337,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.2322275638580322,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2039586305618286,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9688975214958191,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 64433,
+    "predicted_risk_score": 0.9093498587608337,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.2322275638580322,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2039586305618286,
+        "actual_value": 2935952.76
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9688975214958191,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 2935952.76
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 73018,
+    "predicted_risk_score": 0.9093498587608337,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.2322275638580322,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.2039586305618286,
+        "actual_value": 6199009.0
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 0.9688975214958191,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.4993669390678406,
+        "actual_value": 6199009.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.37391728162765503,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 35744,
+    "predicted_risk_score": 0.9092902541160583,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.357396125793457,
+        "actual_value": 1305754.09
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.1947327852249146,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9856829047203064,
+        "actual_value": 1305754.09
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.4092041552066803,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.34944674372673035,
+        "actual_value": 23.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 57804,
+    "predicted_risk_score": 0.9092902541160583,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.357396125793457,
+        "actual_value": 1258818.82
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.1947327852249146,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9856829047203064,
+        "actual_value": 1258818.82
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.4092041552066803,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.34944674372673035,
+        "actual_value": 23.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 64787,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8568053245544434,
+        "actual_value": 4130371.73
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2394754886627197,
+        "actual_value": 4130371.73
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0743868350982666,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2982943058013916,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.16755226254463196,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 56807,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8468050956726074,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.236133098602295,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0915496349334717,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3122744858264923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1849956214427948,
+        "actual_value": 16.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 40285,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6678543090820312,
+        "actual_value": 1933121.35
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2543336153030396,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1729393005371094,
+        "actual_value": 1933121.35
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.36821216344833374,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.17026351392269135,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 4392,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.867370843887329,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2399665117263794,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0523078441619873,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30189305543899536,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1611626148223877,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 52413,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8463120460510254,
+        "actual_value": 3009125.59
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.235359787940979,
+        "actual_value": 3009125.59
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0915496349334717,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3122744858264923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.18324506282806396,
+        "actual_value": 15.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 24526,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.672717571258545,
+        "actual_value": 2799902.39
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2375012636184692,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1796177625656128,
+        "actual_value": 2799902.39
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3569619655609131,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.15268832445144653,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 55845,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8648595809936523,
+        "actual_value": 3191058.32
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2384099960327148,
+        "actual_value": 3191058.32
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0599242448806763,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30155158042907715,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1664532572031021,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 75510,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8648595809936523,
+        "actual_value": 9168747.51
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2384099960327148,
+        "actual_value": 9168747.51
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0599242448806763,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30155158042907715,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1664532572031021,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 23738,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8468050956726074,
+        "actual_value": 5652739.69
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.236133098602295,
+        "actual_value": 5652739.69
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0915496349334717,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3122744858264923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1849956214427948,
+        "actual_value": 16.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 45620,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.86564302444458,
+        "actual_value": 7418265.31
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.244649887084961,
+        "actual_value": 7418265.31
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0428543090820312,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30211004614830017,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1530061662197113,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 41195,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8463120460510254,
+        "actual_value": 3399575.93
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.235359787940979,
+        "actual_value": 3399575.93
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0915496349334717,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3122744858264923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.18324506282806396,
+        "actual_value": 15.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 29623,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8648595809936523,
+        "actual_value": 8730600.58
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2384099960327148,
+        "actual_value": 8730600.58
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0599242448806763,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30155158042907715,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1664532572031021,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 81319,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8568053245544434,
+        "actual_value": 6174385.48
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2394754886627197,
+        "actual_value": 6174385.48
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0743868350982666,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2982943058013916,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.16755226254463196,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 19918,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.867370843887329,
+        "actual_value": 4886423.05
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2399665117263794,
+        "actual_value": 4886423.05
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0523078441619873,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30189305543899536,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1611626148223877,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 3079,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.669119119644165,
+        "actual_value": 2079746.13
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.235092282295227,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1795240640640259,
+        "actual_value": 2079746.13
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.36842918395996094,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.15721313655376434,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 71886,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.86564302444458,
+        "actual_value": 5101855.95
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.244649887084961,
+        "actual_value": 5101855.95
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0428543090820312,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30211004614830017,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1530061662197113,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 71866,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8648595809936523,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2384099960327148,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0599242448806763,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30155158042907715,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1664532572031021,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 75909,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.867370843887329,
+        "actual_value": 3845765.36
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2399665117263794,
+        "actual_value": 3845765.36
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0523078441619873,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30189305543899536,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1611626148223877,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 65794,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.86564302444458,
+        "actual_value": 7788725.2
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.244649887084961,
+        "actual_value": 7788725.2
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0428543090820312,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30211004614830017,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1530061662197113,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 89356,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8648595809936523,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2384099960327148,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0599242448806763,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30155158042907715,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1664532572031021,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 20661,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.867370843887329,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2399665117263794,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0523078441619873,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30189305543899536,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1611626148223877,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 50705,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8690316677093506,
+        "actual_value": 3049753.79
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.238211750984192,
+        "actual_value": 3049753.79
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0589736700057983,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3014850616455078,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.16764551401138306,
+        "actual_value": 11.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 81884,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8648595809936523,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2384099960327148,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0599242448806763,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30155158042907715,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1664532572031021,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 78987,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8648595809936523,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2384099960327148,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0599242448806763,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30155158042907715,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1664532572031021,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 69654,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.669326066970825,
+        "actual_value": 2154005.71
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2575039863586426,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1719985008239746,
+        "actual_value": 2154005.71
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3678706884384155,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.17157121002674103,
+        "actual_value": 10.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 64133,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6678543090820312,
+        "actual_value": 2140888.35
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2543336153030396,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1729393005371094,
+        "actual_value": 2140888.35
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.36821216344833374,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.17026351392269135,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 59211,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8690316677093506,
+        "actual_value": 6545346.16
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.238211750984192,
+        "actual_value": 6545346.16
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0589736700057983,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3014850616455078,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.16764551401138306,
+        "actual_value": 11.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 1380,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8468050956726074,
+        "actual_value": 7807640.17
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.236133098602295,
+        "actual_value": 7807640.17
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0915496349334717,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3122744858264923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1849956214427948,
+        "actual_value": 16.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 47594,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6684868335723877,
+        "actual_value": 2580055.17
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.243878722190857,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1752758026123047,
+        "actual_value": 2580055.17
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.37102118134498596,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.16371138393878937,
+        "actual_value": 15.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 5912,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8568053245544434,
+        "actual_value": 2938833.22
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2394754886627197,
+        "actual_value": 2938833.22
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0743868350982666,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2982943058013916,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.16755226254463196,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 10030,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.672717571258545,
+        "actual_value": 2046684.58
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2375012636184692,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1796177625656128,
+        "actual_value": 2046684.58
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3569619655609131,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.15268832445144653,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 57768,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6714305877685547,
+        "actual_value": 2331777.94
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2565535306930542,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1718003749847412,
+        "actual_value": 2331777.94
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3678041696548462,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1748313158750534,
+        "actual_value": 11.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 27602,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.672717571258545,
+        "actual_value": 2163012.63
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2375012636184692,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1796177625656128,
+        "actual_value": 2163012.63
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3569619655609131,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.15268832445144653,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 48121,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8468050956726074,
+        "actual_value": 3912252.81
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.236133098602295,
+        "actual_value": 3912252.81
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0915496349334717,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3122744858264923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1849956214427948,
+        "actual_value": 16.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 74894,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.86564302444458,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.244649887084961,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0428543090820312,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30211004614830017,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1530061662197113,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 11267,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.86564302444458,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.244649887084961,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0428543090820312,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30211004614830017,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1530061662197113,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 58637,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.672717571258545,
+        "actual_value": 2666139.51
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2375012636184692,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1796177625656128,
+        "actual_value": 2666139.51
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3569619655609131,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.15268832445144653,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 70083,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.86564302444458,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.244649887084961,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0428543090820312,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30211004614830017,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1530061662197113,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 19061,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.86564302444458,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.244649887084961,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0428543090820312,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30211004614830017,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1530061662197113,
+        "actual_value": 14.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 48812,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.672717571258545,
+        "actual_value": 2194533.79
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2375012636184692,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1796177625656128,
+        "actual_value": 2194533.79
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3569619655609131,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.15268832445144653,
+        "actual_value": 17.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 64391,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.867370843887329,
+        "actual_value": 6695070.79
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2399665117263794,
+        "actual_value": 6695070.79
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0523078441619873,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30189305543899536,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1611626148223877,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 67986,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8468050956726074,
+        "actual_value": 7442005.19
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.236133098602295,
+        "actual_value": 7442005.19
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0915496349334717,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3122744858264923,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1849956214427948,
+        "actual_value": 16.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 83354,
+    "predicted_risk_score": 0.9088060855865479,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.867370843887329,
+        "actual_value": 6295010.28
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2399665117263794,
+        "actual_value": 6295010.28
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0523078441619873,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.30189305543899536,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.1611626148223877,
+        "actual_value": 13.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 36392,
+    "predicted_risk_score": 0.908766508102417,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6199557781219482,
+        "actual_value": 2429711.09
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2529375553131104,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1611603498458862,
+        "actual_value": 2429711.09
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.37252572178840637,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11084631830453873,
+        "actual_value": 9.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 43286,
+    "predicted_risk_score": 0.908766508102417,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.6199557781219482,
+        "actual_value": 2333929.91
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.2529375553131104,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1611603498458862,
+        "actual_value": 2333929.91
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.37252572178840637,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11084631830453873,
+        "actual_value": 9.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 41581,
+    "predicted_risk_score": 0.908766508102417,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8154890537261963,
+        "actual_value": 4128853.75
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.227571725845337,
+        "actual_value": 4128853.75
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.055357813835144,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3062066435813904,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.10572835057973862,
+        "actual_value": 9.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 15179,
+    "predicted_risk_score": 0.908766508102417,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.8154890537261963,
+        "actual_value": 8104557.88
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.227571725845337,
+        "actual_value": 8104557.88
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.055357813835144,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3062066435813904,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.10572835057973862,
+        "actual_value": 9.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 85893,
+    "predicted_risk_score": 0.9084075689315796,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.883530855178833,
+        "actual_value": 4.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 0.7502466440200806,
+        "actual_value": 709950.57
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.6592677235603333,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.4339473843574524,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.32346460223197937,
+        "actual_value": 709950.57
+      }
+    ]
+  },
+  {
+    "transaction_index": 31660,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.899839162826538,
+        "actual_value": 7539165.76
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.253961205482483,
+        "actual_value": 7539165.76
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9594628214836121,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2542857229709625,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.08834280073642731,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 7059,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.899839162826538,
+        "actual_value": 4438931.81
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.253961205482483,
+        "actual_value": 4438931.81
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9594628214836121,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2542857229709625,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.08834280073642731,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 73992,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.904529094696045,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.255875825881958,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.972877025604248,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.26922115683555603,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11216507852077484,
+        "actual_value": 18.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 61996,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.9008398056030273,
+        "actual_value": 8443528.7
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2558619976043701,
+        "actual_value": 8443528.7
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9794822335243225,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2693024277687073,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11802925169467926,
+        "actual_value": 19.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 82610,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.899839162826538,
+        "actual_value": 4022098.69
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.253961205482483,
+        "actual_value": 4022098.69
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9594628214836121,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2542857229709625,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.08834280073642731,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 47075,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.899839162826538,
+        "actual_value": 6856104.02
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.253961205482483,
+        "actual_value": 6856104.02
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9594628214836121,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2542857229709625,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.08834280073642731,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 83518,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.899839162826538,
+        "actual_value": 6426126.34
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.253961205482483,
+        "actual_value": 6426126.34
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9594628214836121,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2542857229709625,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.08834280073642731,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 46013,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.9008398056030273,
+        "actual_value": 3092085.39
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2558619976043701,
+        "actual_value": 3092085.39
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9794822335243225,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2693024277687073,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11802925169467926,
+        "actual_value": 19.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 83050,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.899839162826538,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.253961205482483,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9594628214836121,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2542857229709625,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.08834280073642731,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 17264,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.904529094696045,
+        "actual_value": 3887853.15
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.255875825881958,
+        "actual_value": 3887853.15
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.972877025604248,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.26922115683555603,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11216507852077484,
+        "actual_value": 18.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 11819,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.904529094696045,
+        "actual_value": 3574316.05
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.255875825881958,
+        "actual_value": 3574316.05
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.972877025604248,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.26922115683555603,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11216507852077484,
+        "actual_value": 18.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 46698,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.9008398056030273,
+        "actual_value": 7758036.72
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2558619976043701,
+        "actual_value": 7758036.72
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9794822335243225,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2693024277687073,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11802925169467926,
+        "actual_value": 19.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 9386,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.9008398056030273,
+        "actual_value": 4222595.06
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.2558619976043701,
+        "actual_value": 4222595.06
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9794822335243225,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.2693024277687073,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.11802925169467926,
+        "actual_value": 19.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 43187,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.69608473777771,
+        "actual_value": 1897921.7
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1773786544799805,
+        "actual_value": 1897921.7
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.171249508857727,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3341813087463379,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.09520339965820312,
+        "actual_value": 20.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 8271,
+    "predicted_risk_score": 0.9083122611045837,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.69608473777771,
+        "actual_value": 2109967.47
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1773786544799805,
+        "actual_value": 2109967.47
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.171249508857727,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3341813087463379,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.09520339965820312,
+        "actual_value": 20.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 43281,
+    "predicted_risk_score": 0.9081002473831177,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.541292190551758,
+        "actual_value": 1576874.04
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.1933279037475586,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1018344163894653,
+        "actual_value": 1576874.04
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.3166530430316925,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.14519226551055908,
+        "actual_value": 21.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 74792,
+    "predicted_risk_score": 0.9080181121826172,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.9784009456634521,
+        "actual_value": 3020974.53
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0621031522750854,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9004623889923096,
+        "actual_value": 3020974.53
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8195267915725708,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 66465,
+    "predicted_risk_score": 0.9080181121826172,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.9784009456634521,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0621031522750854,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9004623889923096,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8195267915725708,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 63883,
+    "predicted_risk_score": 0.9080181121826172,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8252637386322021,
+        "actual_value": 2480321.85
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.1153082847595215,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9807016849517822,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8344699740409851,
+        "actual_value": 2480321.85
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 25196,
+    "predicted_risk_score": 0.9080181121826172,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8252637386322021,
+        "actual_value": 2571605.04
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.1153082847595215,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9807016849517822,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8344699740409851,
+        "actual_value": 2571605.04
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 68249,
+    "predicted_risk_score": 0.9080181121826172,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.8252637386322021,
+        "actual_value": 2654302.46
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.1153082847595215,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9807016849517822,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8344699740409851,
+        "actual_value": 2654302.46
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.23081427812576294,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 59998,
+    "predicted_risk_score": 0.9080181121826172,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.9784009456634521,
+        "actual_value": 6870369.62
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0621031522750854,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9004623889923096,
+        "actual_value": 6870369.62
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.8195267915725708,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24646854400634766,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 81120,
+    "predicted_risk_score": 0.9078413844108582,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.1771464347839355,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0657312870025635,
+        "actual_value": 8.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0423821210861206,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.782609760761261,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.17907720804214478,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 39570,
+    "predicted_risk_score": 0.9078413844108582,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.1771464347839355,
+        "actual_value": 6322399.97
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0657312870025635,
+        "actual_value": 8.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0423821210861206,
+        "actual_value": 6322399.97
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.782609760761261,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.17907720804214478,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 36946,
+    "predicted_risk_score": 0.9078413844108582,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.1771464347839355,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0657312870025635,
+        "actual_value": 8.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0423821210861206,
+        "actual_value": 10000000.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.782609760761261,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.17907720804214478,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 48541,
+    "predicted_risk_score": 0.9078413844108582,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.1771464347839355,
+        "actual_value": 3846781.01
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0657312870025635,
+        "actual_value": 8.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0423821210861206,
+        "actual_value": 3846781.01
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.782609760761261,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.17907720804214478,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 78386,
+    "predicted_risk_score": 0.9078413844108582,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.1771464347839355,
+        "actual_value": 9468064.05
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0657312870025635,
+        "actual_value": 8.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0423821210861206,
+        "actual_value": 9468064.05
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.782609760761261,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.17907720804214478,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 50487,
+    "predicted_risk_score": 0.9078413844108582,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.1771464347839355,
+        "actual_value": 8813323.11
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.0657312870025635,
+        "actual_value": 8.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.0423821210861206,
+        "actual_value": 8813323.11
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.782609760761261,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.17907720804214478,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 30195,
+    "predicted_risk_score": 0.9063957929611206,
+    "actual_is_fraud_label": 0,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.440951108932495,
+        "actual_value": 3.0
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 1.9574191570281982,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.38176360726356506,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_transfer",
+        "shap_impact": 0.36241888999938965,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.341116338968277,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 75567,
+    "predicted_risk_score": 0.9043638706207275,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.477381467819214,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 1.974003553390503,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_transfer",
+        "shap_impact": 0.35333117842674255,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.3399711847305298,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.30223676562309265,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 28418,
+    "predicted_risk_score": 0.9043169021606445,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.389604091644287,
+        "actual_value": 1293595.52
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.1806696653366089,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.9932271838188171,
+        "actual_value": 1293595.52
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.401899129152298,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.2732369303703308,
+        "actual_value": 22.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 55327,
+    "predicted_risk_score": 0.9040442109107971,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.6740169525146484,
+        "actual_value": 963966.56
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.3385283946990967,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9244679808616638,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7033498883247375,
+        "actual_value": 963966.56
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 51251,
+    "predicted_risk_score": 0.903770387172699,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7712305784225464,
+        "actual_value": 1226390.31
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.1769301891326904,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9667391777038574,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7650660872459412,
+        "actual_value": 1226390.31
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.2415665239095688,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 15994,
+    "predicted_risk_score": 0.903770387172699,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7712305784225464,
+        "actual_value": 1272493.9
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.1769301891326904,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9667391777038574,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7650660872459412,
+        "actual_value": 1272493.9
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.2415665239095688,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 22776,
+    "predicted_risk_score": 0.9035559296607971,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.7552742958068848,
+        "actual_value": 1040303.44
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 1.2259587049484253,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.9558761119842529,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7383300065994263,
+        "actual_value": 1040303.44
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24421870708465576,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 4646,
+    "predicted_risk_score": 0.9034609794616699,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.515353202819824,
+        "actual_value": 1619313.55
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.307012677192688,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 1.1248410940170288,
+        "actual_value": 1619313.55
+      },
+      {
+        "feature": "is_cash_out",
+        "shap_impact": 0.40008544921875,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "hour",
+        "shap_impact": -0.10790718346834183,
+        "actual_value": 9.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 20462,
+    "predicted_risk_score": 0.903418242931366,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.964767336845398,
+        "actual_value": 932304.24
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0849028825759888,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7900464534759521,
+        "actual_value": 932304.24
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.7313496470451355,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 14841,
+    "predicted_risk_score": 0.903418242931366,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 1.964767336845398,
+        "actual_value": 1005346.72
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.0849028825759888,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.7900464534759521,
+        "actual_value": 1005346.72
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.7313496470451355,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.3006457984447479,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 29446,
+    "predicted_risk_score": 0.9034080505371094,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.2566182613372803,
+        "actual_value": 5.0
+      },
+      {
+        "feature": "txn_type_TRANSFER",
+        "shap_impact": 2.0575194358825684,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": -0.36748090386390686,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_transfer",
+        "shap_impact": 0.36347344517707825,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.2596343159675598,
+        "actual_value": 1.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 86222,
+    "predicted_risk_score": 0.902991533279419,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "hour",
+        "shap_impact": 2.29792857170105,
+        "actual_value": 6.0
+      },
+      {
+        "feature": "amount",
+        "shap_impact": 1.3172804117202759,
+        "actual_value": 834495.09
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 0.7906436324119568,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.557670533657074,
+        "actual_value": 834495.09
+      },
+      {
+        "feature": "txn_type_PAYMENT",
+        "shap_impact": 0.20122212171554565,
+        "actual_value": 0.0
+      }
+    ]
+  },
+  {
+    "transaction_index": 9006,
+    "predicted_risk_score": 0.9029271006584167,
+    "actual_is_fraud_label": 1,
+    "top_risk_drivers": [
+      {
+        "feature": "amount",
+        "shap_impact": 2.0422139167785645,
+        "actual_value": 1086227.44
+      },
+      {
+        "feature": "txn_type_CASH_OUT",
+        "shap_impact": 1.1163108348846436,
+        "actual_value": 1.0
+      },
+      {
+        "feature": "avg_amount_24h",
+        "shap_impact": 0.8201166987419128,
+        "actual_value": 1086227.44
+      },
+      {
+        "feature": "hour",
+        "shap_impact": 0.6138700246810913,
+        "actual_value": 0.0
+      },
+      {
+        "feature": "is_night",
+        "shap_impact": 0.24421870708465576,
+        "actual_value": 1.0
+      }
+    ]
+  }
+]
